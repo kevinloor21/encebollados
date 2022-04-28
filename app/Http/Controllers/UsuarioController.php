@@ -40,7 +40,7 @@ class UsuarioController extends Controller
     {
         $data=$request->all();
         User::create($data);
-        return redirect(route("usuario"));
+        return redirect(route('usuario'));
     }
 
     /**

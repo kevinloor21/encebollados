@@ -20,8 +20,13 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 
+<style>
+    #img{
+        background-image: url("https://media.istockphoto.com/vectors/koi-pattern-vector-id472280297?k=20&m=472280297&s=170667a&w=0&h=Srbx9YJ4zvobixy3Tre57RZft15AHL2sXnGuSE97DN0=");
+    }
+</style>
 
-<body class=""style="font-family:algeria;background:#292f36">
+<body class=""style="font-family:algeria;" id="img">
 <nav class="navbar container-fluid navbar-expand-lg navbar-light " style="font-family: algeria;background:#0f0f0f">             
           
           
